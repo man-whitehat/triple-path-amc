@@ -24,7 +24,7 @@ Signal (1024 samples)
        │
        ├──► EMD → [std, skew, kurt, power, entropy] × 3 IMFs ──► Dense → SE ──────────┐
        │                                                                                 │
-       ├──► GASF (96×96) ──────────────────────────────────────────────────► CNN → SE ──┤──► Cross-Path
+       ├──► GASF (96×96) ────────────────────────────────────────────────► CNN → SE ──┤──► Cross-Path
        │                                                                                 │    Attention
        └──► IQ Sequence ─────────────────────────────────────────────────► BiGRU ───────┘    Gate
                                                                                               │
